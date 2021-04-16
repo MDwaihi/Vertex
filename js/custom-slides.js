@@ -316,9 +316,11 @@ $(document).ready(function() { "use strict";
     //It it first or last stage?
     if (window.stage === 1){
       $body.addClass('firstSlide');
+      updateStageOne()
     }
     if ((window.stages === window.stage)&&(window.stages !== 1)) {
       $body.addClass('lastSlide');
+      updateStageTwo()
     }
     
     $body.removeClassByPrefix("stage-").addClass('stage-'+window.stage);
