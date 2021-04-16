@@ -1,4 +1,15 @@
 /* Base */
+.navigation-section-one::after{
+	background: #1f1e1d !important;
+}
+
+.navigation-section-two::after{
+    background: #f53d1f !important;
+}
+
+.navigation-section-one-not-selected::after{
+	background-color: #c1c1c1 !important;
+}
 
 #awwwards{
 	position: fixed;

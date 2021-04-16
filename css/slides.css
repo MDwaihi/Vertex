@@ -2510,7 +2510,7 @@ html:not(.page-loaded) .slides.animated.scroll .slide {
   height: 15px;
   border-radius: 7px;
   opacity: 0.145;
-  background: #1f1e1d;
+  background: #f53d1f;
   -webkit-transition: opacity 0.25s, background 0.25s;
   transition: opacity 0.25s, background 0.25s;
 }
